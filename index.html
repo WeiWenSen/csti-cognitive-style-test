@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2eee4">
+  <meta name="description" content="CSTI 认知风格测试：20 道生活与荒诞三选一，生成你的八维脑内运行报告。仅供娱乐，不是诊断。">
+  <title>CSTI 认知风格测试｜你卡住时像什么人？</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">跳到主要内容</a>
+
+  <div class="page-shell">
+    <header class="site-header" aria-label="站点标题">
+      <a class="brand" href="#" id="brandHome" aria-label="CSTI 首页">
+        <span class="brand-mark">CSTI</span>
+        <span class="brand-sub">脑内运行报告</span>
+      </a>
+      <span class="header-note">20题 · 约5分钟</span>
+    </header>
+
+    <main id="mainContent">
+      <section class="screen intro-screen" id="screenIntro" aria-labelledby="introTitle">
+        <div class="friend-banner" id="friendBanner" hidden>
+          <span class="mono">FRIEND REPORT / 已接收</span>
+          <p>有个朋友把脑内报告丢给了你。测完可以对比，不比谁更聪明。</p>
+        </div>
+
+        <div class="ai-notice" role="note" aria-label="测试制作与用途说明">
+          <span class="ai-notice-label" aria-hidden="true">重要提示</span>
+          <p>本测试由AI制作，仅供娱乐</p>
+        </div>
+
+        <div class="intro-grid">
+          <article class="hero-card">
+            <div class="eyebrow-row">
+              <span class="eyebrow">认知风格测试</span>
+              <span class="status-dot">TENDENCY ONLY</span>
+            </div>
+            <h1 id="introTitle" tabindex="-1">
+              今天你<span class="marker">卡</span>了吗？
+            </h1>
+            <p class="intro-lead">
+              20 道生活与荒诞三选一，看出你最常用哪两种脑回路、哪一维最容易掉线。
+              结果是一个好笑但扎心的类型，加上一张八维倾向图。
+            </p>
+            <div class="hero-actions">
+              <button class="button button-primary button-large" id="startBtn" type="button">
+                开始检测
+                <span aria-hidden="true">↗</span>
+              </button>
+              <span class="micro-note">没有排行榜，不判断你聪明不聪明。</span>
+            </div>
+            <dl class="feature-strip">
+              <div>
+                <dt>01</dt>
+                <dd>20道题</dd>
+              </div>
+              <div>
+                <dt>02</dt>
+                <dd>八维剖面</dd>
+              </div>
+              <div>
+                <dt>03</dt>
+                <dd>截图即分享</dd>
+              </div>
+            </dl>
+          </article>
+
+          <aside class="sample-card" aria-label="完成测试后会得到的结果预览">
+            <div class="sample-topline">
+              <span class="mono">RESULT PREVIEW / 你会看到</span>
+              <span class="sample-stamp">结果长这样</span>
+            </div>
+            <div class="sample-type">
+              <span class="sample-code">READ-MUCH</span>
+              <h2>已读乱想</h2>
+              <p>一句晚安，够我推完三集悬疑。</p>
+            </div>
+            <div class="sample-radar-block">
+              <svg class="sample-radar" viewBox="0 0 360 300" role="img" aria-label="八维脑回路倾向示例图">
+                <polygon class="sample-radar-grid" points="180,45 237,69 261,126 237,183 180,207 123,183 99,126 123,69"></polygon>
+                <polygon class="sample-radar-grid" points="180,74 218,90 234,128 218,166 180,182 142,166 126,128 142,90"></polygon>
+                <polygon class="sample-radar-grid radar-outer-sample" points="180,15 271,53 309,144 271,235 180,273 89,235 51,144 89,53"></polygon>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="180" y2="15"></line>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="271" y2="53"></line>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="309" y2="144"></line>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="271" y2="235"></line>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="180" y2="273"></line>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="89" y2="235"></line>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="51" y2="144"></line>
+                <line class="sample-radar-axis" x1="180" y1="144" x2="89" y2="53"></line>
+                <polygon class="sample-radar-area" points="180,48 253,69 224,144 250,221 180,230 110,205 112,144 115,65"></polygon>
+                <circle class="sample-radar-dot" cx="180" cy="48" r="3.5"></circle>
+                <circle class="sample-radar-dot" cx="253" cy="69" r="3.5"></circle>
+                <circle class="sample-radar-dot" cx="224" cy="144" r="3.5"></circle>
+                <circle class="sample-radar-dot" cx="250" cy="221" r="3.5"></circle>
+                <circle class="sample-radar-dot" cx="180" cy="230" r="3.5"></circle>
+                <circle class="sample-radar-dot" cx="110" cy="205" r="3.5"></circle>
+                <circle class="sample-radar-dot" cx="112" cy="144" r="3.5"></circle>
+                <circle class="sample-radar-dot" cx="115" cy="65" r="3.5"></circle>
+                <text class="sample-radar-label" x="180" y="7" text-anchor="middle">洞察</text>
+                <text class="sample-radar-label" x="286" y="47" text-anchor="start">推理</text>
+                <text class="sample-radar-label" x="318" y="148" text-anchor="start">自知</text>
+                <text class="sample-radar-label" x="286" y="253" text-anchor="start">读人</text>
+                <text class="sample-radar-label" x="180" y="293" text-anchor="middle">换位</text>
+                <text class="sample-radar-label" x="74" y="253" text-anchor="end">决断</text>
+                <text class="sample-radar-label" x="42" y="148" text-anchor="end">灵活</text>
+                <text class="sample-radar-label" x="74" y="47" text-anchor="end">校准</text>
+              </svg>
+              <div class="sample-radar-caption">
+                <span>八维脑回路</span>
+                <span>看倾向 · 不打分</span>
+              </div>
+            </div>
+            <ul class="sample-output-list">
+              <li><span>01</span>你的主类型和一句扎心配文</li>
+              <li><span>02</span>八维倾向图和为什么会像你</li>
+              <li><span>03</span>你最容易掉线的位置</li>
+            </ul>
+            <div>
+              <p class="sample-caption">测完会生成一张可以直接发朋友的结果卡。</p>
+            </div>
+          </aside>
+        </div>
+
+        <p class="landing-disclaimer">
+          娱乐性自我探索，不具诊断效度。请勿用于招聘、相亲、分手、算命或人生判决。
+        </p>
+      </section>
+
+      <section class="screen quiz-screen" id="screenQuiz" aria-labelledby="questionHeading" hidden>
+        <div class="quiz-layout">
+          <header class="quiz-header">
+            <button class="text-button" id="backBtn" type="button">
+              <span aria-hidden="true">←</span>
+              上一题
+            </button>
+            <div class="progress-cluster">
+              <span class="progress-label" id="progressText">0 / 20</span>
+              <div
+                class="progress-track"
+                id="progressBar"
+                role="progressbar"
+                aria-label="答题进度"
+                aria-valuemin="0"
+                aria-valuemax="20"
+                aria-valuenow="0"
+              >
+                <span id="progressFill"></span>
+              </div>
+            </div>
+          </header>
+
+          <article class="question-card" id="questionCard">
+            <div class="question-meta">
+              <span id="questionKicker">第 1 题 / 共 20 题</span>
+              <span class="mono">DIMENSIONS HIDDEN</span>
+            </div>
+            <h2 id="questionHeading" tabindex="-1"></h2>
+            <div class="options-list" id="optionsList" role="group" aria-labelledby="questionHeading"></div>
+            <p class="quiz-note" id="quizNote">没有标准答案。选你平时第一反应最接近的那个。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="screen loading-screen" id="screenLoading" aria-labelledby="loadingTitle" hidden>
+        <div class="loading-card">
+          <div class="scanner" aria-hidden="true">
+            <span></span>
+          </div>
+          <p class="mono">CSTI / COMPILING</p>
+          <h2 id="loadingTitle" tabindex="-1">正在装订你的脑内报告。</h2>
+          <div class="loading-lines" aria-live="polite">
+            <p>正在读取八根脑回路……</p>
+            <p>正在确认哪一维最先抢方向盘……</p>
+            <p>正在把脑内弹幕翻译成人话……</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen result-screen" id="screenResult" aria-labelledby="resultName" hidden>
+        <article class="result-snapshot">
+          <div class="result-topline">
+            <span class="mono">CSTI / 本次脑内运行报告</span>
+            <span class="result-badge">仅供娱乐</span>
+          </div>
+          <p class="result-type-kicker">你的卡住类型是</p>
+          <h1 class="result-name" id="resultName" tabindex="-1"></h1>
+          <div class="result-code" id="resultCode"></div>
+          <p class="result-tagline" id="resultTagline"></p>
+
+          <section class="snapshot-radar" aria-labelledby="radarTitle">
+            <div class="snapshot-radar-head">
+              <h2 id="radarTitle">你的八维脑回路</h2>
+              <span>只比倾向，不打分</span>
+            </div>
+            <div class="radar-chart" id="radarChart"></div>
+            <p class="why-line" id="whyLine"></p>
+          </section>
+
+          <div class="result-share">
+            <button class="button button-primary copy-share-button" id="sharePosterBtn" type="button">
+              点击分享给好友
+            </button>
+            <p class="screenshot-guide">
+              <span aria-hidden="true">↓</span>
+              💡 会生成一张带二维码的结果海报，朋友直接扫码就能测
+            </p>
+          </div>
+        </article>
+
+        <details class="result-more">
+          <summary>展开看：你的脑内是怎么运转的</summary>
+          <div class="result-more-body">
+            <div class="analysis-signal" aria-label="本次八维使用情况">
+              <div>
+                <span>更常用</span>
+                <strong id="analysisHigh"></strong>
+              </div>
+              <div>
+                <span>较少上场</span>
+                <strong id="analysisLow"></strong>
+              </div>
+            </div>
+            <div class="description-copy" id="resultDescription"></div>
+            <section class="blind-panel" aria-labelledby="blindTitle">
+              <div class="blind-heading">
+                <span class="blind-icon" aria-hidden="true">!</span>
+                <div>
+                  <span class="section-index mono">偶尔掉线</span>
+                  <h2 id="blindTitle">你可能卡在这里</h2>
+                </div>
+              </div>
+              <p id="blindSpotText"></p>
+              <p class="next-move">
+                <span>换个走法</span>
+                <strong id="nextMoveText"></strong>
+              </p>
+            </section>
+            <section class="friend-compare" id="friendCompare" aria-labelledby="friendCompareTitle" hidden>
+              <span class="section-index mono">FRIEND SIGNAL</span>
+              <h2 id="friendCompareTitle">你和朋友的脑内撞车现场</h2>
+              <div id="friendCompareContent"></div>
+            </section>
+          </div>
+        </details>
+
+        <div class="result-actions">
+          <button class="text-button" id="restartBtn" type="button">再测一次</button>
+          <button class="text-button" id="homeBtn" type="button">回到首页</button>
+        </div>
+
+        <p class="result-disclaimer" id="resultDisclaimer"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span class="mono">CSTI © 2026</span>
+      <span>仅供娱乐，不是诊断。</span>
+    </footer>
+  </div>
+
+  <div class="share-modal" id="shareModal" hidden>
+    <section class="share-sheet" role="dialog" aria-modal="true" aria-labelledby="shareModalTitle">
+      <button class="share-close" id="closeShareBtn" type="button" aria-label="关闭分享海报">×</button>
+      <span class="mono">SHARE POSTER</span>
+      <h2 id="shareModalTitle">海报已生成</h2>
+      <p class="share-sheet-hint">可以直接使用系统分享；如果当前浏览器不支持，请长按下方图片保存。</p>
+      <div class="share-poster-frame">
+        <img id="posterImage" alt="带二维码的 CSTI 测试结果海报">
+      </div>
+      <div class="share-sheet-actions">
+        <button class="button button-primary" id="nativeShareBtn" type="button">分享给好友</button>
+        <button class="button button-secondary" id="downloadPosterBtn" type="button">保存图片</button>
+      </div>
+    </section>
+  </div>
+
+  <canvas id="posterCanvas" width="1080" height="1500" hidden></canvas>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript>本测试需要启用 JavaScript 才能生成结果。</noscript>
+</body>
+</html>
