@@ -4,7 +4,7 @@
 
 > 本测试由 AI 制作，仅供娱乐，不是诊断，也不用于选拔。结果不具心理测量学效度，不代表固定人格或真实能力水平。
 
-在线体验：[https://csti-educational-gibbon-d8c5i3aee5a58.webapps.tcloudbase.com](https://csti-educational-gibbon-d8c5i3aee5a58.webapps.tcloudbase.com)
+国内在线体验（可能失效）：[https://csti-educational-gibbon-d8c5i3aee5a58.webapps.tcloudbase.com](https://csti-educational-gibbon-d8c5i3aee5a58.webapps.tcloudbase.com)
 
 ![结果页预览](preview.png)
 
