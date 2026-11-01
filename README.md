@@ -6,7 +6,7 @@
 
 在线体验：[https://csti-educational-gibbon-d8c5i3aee5a58.webapps.tcloudbase.com](https://csti-educational-gibbon-d8c5i3aee5a58.webapps.tcloudbase.com)
 
-![结果页预览](assets/preview.png)
+![结果页预览](preview.png)
 
 ## 功能
 
